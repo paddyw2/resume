@@ -29,9 +29,8 @@ public class Resume
                     "\n4 - About" +
                     "\n5 - Previous Experience" +
                     "\n6 - Nice to haves!" +
-                    "\n7 - View Cover Letter" +
-                    "\n8 - View Resume" +
-                    "\n9 - Quit Program (so you can call Patrick!)");
+                    "\n7 - View Resume" +
+                    "\n8 - Quit Program (so you can call Patrick!)");
            
           String userInput = keyboardInput.nextLine();
 
@@ -60,21 +59,14 @@ public class Resume
                   String niceToHaves = yourNewIntern.getNiceToHaves();
                   System.out.println("Nice to Haves: " + niceToHaves);
                   break;
-              case "7":
-                  try { 
-                  Desktop.getDesktop().open(new File("test.txt"));
-                  } catch (IOException e) {
-                      System.out.println(e.getMessage());
-                  }
-                  break;
-              case "8":
+             case "7":
                   try { 
                   Desktop.getDesktop().open(new File("resume.pdf"));
                   } catch (IOException e) {
                       System.out.println(e.getMessage());
                   }
                   break;
-              case "9":
+              case "8":
                   System.out.println("Thanks for checking out my resume!");
                   System.exit(0);
               default:
