@@ -12,8 +12,8 @@ public class PatrickWithams extends ExcellentIntern
         name = "Patrick Withams";
         email = "pwithams@gmail.com";
         cell = "587-830-1321"; 
-        bio = "I'm a current computer science student at the University of Calgary. I have extensive knowledge of Java, Python, Bash, HTML, CSS, JavaScript. I'm equally at home using Vim, Tmux, and the command line, or in front of a GUI IDE, such as Eclipse or Intellij. I have basic knowledge in C, C++, and Ruby, and I'm always looking to learn more!";
-        experience = "Prior to studying computer science formally, I worked as a web developer and graphic designer at various companies. I also have another degree in Philosphy and English Literature.";
+        bio = "I'm a current computer science student at the University of Calgary. I have extensive knowledge of Java, Python, Bash, HTML, CSS, JavaScript. I'm equally at home using Vim, Tmux, and the command line, or in front of a GUI IDE, such as Eclipse or Intellij. I have basic knowledge in C, C++, and Ruby, and I'm always looking to learn more! Take a look at my resume to view my latest skills.";
+        experience = "Prior to studying computer science formally, I worked as a web developer and graphic designer at various companies. I also have another degree in Philosphy and English Literature. Take a look at my resume to view my latest experience.";
     }
 
     public String getName()
